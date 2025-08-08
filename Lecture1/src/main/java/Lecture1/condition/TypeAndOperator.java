@@ -1,4 +1,4 @@
-package Lecture1;
+package Lecture1.condition;
 
 public class TypeAndOperator {
     public static void main(String[] args) {

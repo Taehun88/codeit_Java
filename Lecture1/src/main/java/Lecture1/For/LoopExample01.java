@@ -1,4 +1,4 @@
-package Lecture1;
+package Lecture1.For;
 
 public class LoopExample01 {
     public static void main(String[] args) {
