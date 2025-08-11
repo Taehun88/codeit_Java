@@ -1,6 +1,7 @@
 package OOPLecture.Example03;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Order {
@@ -45,5 +46,13 @@ public class Order {
 
     public void setProducts(List<Product> products) {
         this.products = products;
+    }
+
+    public void addProduct(Product product){
+        this.products.add(product);
+    }
+
+    public void addProduct(Product... products) {
+        this.products.addAll(Arrays.asList(products));
     }
 }
