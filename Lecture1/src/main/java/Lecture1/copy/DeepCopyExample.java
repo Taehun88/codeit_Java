@@ -1,5 +1,4 @@
 package Lecture1.copy;
-
 public class DeepCopyExample {
     public static void main(String[] args) {
         int[] original = {1, 2, 3};
