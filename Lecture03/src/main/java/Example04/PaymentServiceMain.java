@@ -60,6 +60,8 @@ public class PaymentServiceMain {
 
         // 정상 결제
         paymentService.processPayment(userAccount, 20000);
+        // 정상 환불
+        paymentService.processRefund(userAccount, 10000);
 
     }
 }
