@@ -1,4 +1,4 @@
-package Example00;
+package Example05;
 
 public class CreditCardPayment implements Payment {
     @Override
