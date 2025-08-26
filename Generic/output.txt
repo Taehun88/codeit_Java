@@ -1,1 +1,2 @@
-Hello, File IO!
+Hello, Buffered IO!
+This is a new line.
